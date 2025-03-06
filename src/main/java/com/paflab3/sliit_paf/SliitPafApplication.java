@@ -14,7 +14,7 @@ public class SliitPafApplication {
 	}
 
 	@GetMapping("/")
-	public String rootEndpoint (){
+	public String rootEndpoint() {
 		String message = "Hello world!";
 		return message;
 	}
